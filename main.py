@@ -108,12 +108,18 @@ class Monarch(MDApp):
 
     def on_start(self):
         icons_item = {
-            "folder": "My files",
-            "account-multiple": "Shared with me",
-            "star": "Starred",
-            "history": "Recent",
-            "checkbox-marked": "Shared with me",
-            "upload": "Upload",
+            #"folder": "My Files",
+            #"account-multiple": "Shared with me",
+            #"star": "Starred",
+            #"history": "Recent",
+            #"checkbox-marked": "Shared with me",
+            #"upload": "Upload",
+             "book": "Парма Гор",
+             "1": "Буквоешка",
+             "3": "Коми Гор",
+             "4": "Местные новости",
+             "5": "Реклама",
+             "upload": "Upload",
         }
         for icon_name in icons_item.keys():
             self.root.ids.content_drawer.ids.md_list.add_widget(
