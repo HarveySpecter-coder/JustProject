@@ -28,7 +28,7 @@ source.dir = .
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.2
+version = 0.5
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -43,10 +43,10 @@ requirements = python3,kivy==2.0.0,kivymd,https://github.com/kivymd/KivyMD/archi
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/logo/start_logo.png
+presplash.filename = %(source.dir)s/data/logo/pre-splash.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/data/logo/logo_512.png
+icon.filename = %(source.dir)s/data/logo/logo-512.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = all
@@ -226,7 +226,7 @@ fullscreen = 0
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
@@ -284,18 +284,18 @@ android.allow_backup = True
 # (str) Path to a custom kivy-ios folder
 #ios.kivy_ios_dir = ../kivy-ios
 # Alternately, specify the URL and branch of a git checkout:
-ios.kivy_ios_url = https://github.com/kivy/kivy-ios
-ios.kivy_ios_branch = master
+#ios.kivy_ios_url = https://github.com/kivy/kivy-ios
+#ios.kivy_ios_branch = master
 
 # Another platform dependency: ios-deploy
 # Uncomment to use a custom checkout
 #ios.ios_deploy_dir = ../ios_deploy
 # Or specify URL and branch
-ios.ios_deploy_url = https://github.com/phonegap/ios-deploy
-ios.ios_deploy_branch = 1.10.0
+#ios.ios_deploy_url = https://github.com/phonegap/ios-deploy
+#ios.ios_deploy_branch = 1.10.0
 
 # (bool) Whether or not to sign the code
-ios.codesign.allowed = false
+#ios.codesign.allowed = false
 
 # (str) Name of the certificate to use for signing the debug version
 # Get a list of available identities: buildozer ios list_identities
