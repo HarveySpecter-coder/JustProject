@@ -32,17 +32,17 @@ KV = '''
         Image:
             id: avatar
             size_hint: None, None
-            size: "56dp", "56dp"
+            size: "70dp", "70dp"
             source: "data/logo/kivy-icon-256.png"
 
     MDLabel:
-        text: "KivyMD library"
+        text: "Monarch Solutions"
         font_style: "Button"
         size_hint_y: None
         height: self.texture_size[1]
 
     MDLabel:
-        text: "kivydevelopment@gmail.com"
+        text: "xarveylight@gmail.com"
         font_style: "Caption"
         size_hint_y: None
         height: self.texture_size[1]
@@ -114,12 +114,8 @@ class Monarch(MDApp):
             #"history": "Recent",
             #"checkbox-marked": "Shared with me",
             #"upload": "Upload",
-             "book": "Парма Гор",
-             "1": "Буквоешка",
-             "3": "Коми Гор",
-             "4": "Местные новости",
-             "5": "Реклама",
-             "upload": "Upload",
+             "book": "Парма Гор"
+
         }
         for icon_name in icons_item.keys():
             self.root.ids.content_drawer.ids.md_list.add_widget(
