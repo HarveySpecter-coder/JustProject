@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Monarch_Corp
+title = Monarch
 
 # (str) Package name
 package.name = Monarch
