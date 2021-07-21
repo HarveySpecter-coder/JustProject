@@ -108,7 +108,7 @@ class Monarch(MDApp):
 
     def on_start(self):
         icons_item = {
-            #"folder": "My Files",
+            ##"folder": "My Files",
             #"account-multiple": "Shared with me",
             #"star": "Starred",
             #"history": "Recent",
